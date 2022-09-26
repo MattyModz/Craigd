@@ -14,7 +14,7 @@ function Sectionsix() {
           <div className="lg:w-1/2">
             {" "}
             <div className="py-12 flex justify-center text-2xl">
-              <Image src={"/worried.svg"} width={400} height={400} />
+              <Image src={"/Worried.svg"} width={400} height={400} />
             </div>
           </div>
         </div>

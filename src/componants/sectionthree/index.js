@@ -5,7 +5,7 @@ function Sectionthree() {
     <div className=" h-full mb-16 lg:px-12 px-4 lg:mt-48  ">
       <div className="lg:flex container  ">
         <div className="lg:w-1/2 grid items-center">
-          <Image src={"/ideas vector.svg"} width={400} height={400} />
+          <Image src={"/ideasvector.svg"} width={400} height={400} />
         </div>
 
         <div className="lg:w-1/2 grid items-center">
