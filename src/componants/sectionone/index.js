@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 function Sectioone() {
   return (
-    <div className="h-screen grid items-center container shadow-lg">
+    <div className="h-screen grid items-center container shadow-lg px-4">
       <div className="grid items-center">
         <Image src={"/CD.svg"} width={300} height={300} />
         <h2 className="font-bold text-center text-3xl text-[#493BCD]">

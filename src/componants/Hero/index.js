@@ -39,7 +39,7 @@ function Index() {
               </button>
             </div>
 
-            <div classNameName="hidden lg:flex lg:items-center lg:justify-center font-bold lg:space-x-10">
+            <div classNameName=" lg:flex lg:items-center lg:justify-center font-bold lg:space-x-10">
               <a
                 href="#"
                 title=""
