@@ -39,7 +39,7 @@ function Index() {
               </button>
             </div>
 
-            <div className="hidden lg:flex lg:items-center lg:justify-center font-bold lg:space-x-10">
+            <div classNameName="hidden lg:flex lg:items-center lg:justify-center font-bold lg:space-x-10">
               <a
                 href="#"
                 title=""
@@ -82,15 +82,15 @@ function Index() {
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="lg:text-5xl text-4xl font-bold">
               Tired of{" "}
-              <span className="text-[#82C4D9]"> finding problems </span>
+              <span classNameName="text-[#82C4D9]"> finding problems </span>
               <br />
               and losing solutions?
             </h1>
 
             <div className="flex justify-center">
               <div className="grid py-12">
-                <section class="relative xl:pb-0">
-                  <div class="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#00ABB2] via-[#A154A1] to-[#A154A1] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-150 animate-tilt"></div>
+                <section className="relative xl:pb-0">
+                  <div className="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#00ABB2] via-[#A154A1] to-[#A154A1] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-150 animate-tilt"></div>
                   <div className="relative">
                     <div className="flex  border px-3 bg-white lg:text-3xl lg:pb-2 rounded-full">
                       <div className="mt-1 lg:pt-1">
@@ -135,11 +135,11 @@ function Index() {
                 </div>
               </div>
             </div>
-            <section class="relative xl:pb-0">
-              <div class="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-                <div class="max-w-3xl mx-auto text-center">
-                  <div class="relative inline-flex  group">
-                    <div class="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-150 animate-tilt"></div>
+            <section className="relative xl:pb-0">
+              <div className="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+                <div className="max-w-3xl mx-auto text-center">
+                  <div className="relative inline-flex  group">
+                    <div className="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-150 animate-tilt"></div>
                   </div>
                 </div>
               </div>
@@ -170,20 +170,20 @@ function Index() {
 
 export default Index;
 
-// <div class="mt-8 lg:mt-12 lg:flex lg:items-center ">
-//   <div class="flex justify-center flex-shrink-0 -space-x-4 overflow-hidden lg:justify-start">
+// <div className="mt-8 lg:mt-12 lg:flex lg:items-center ">
+//   <div className="flex justify-center flex-shrink-0 -space-x-4 overflow-hidden lg:justify-start">
 //     <img
-//       class="inline-block rounded-full w-14 h-14 ring-2 ring-white"
+//       className="inline-block rounded-full w-14 h-14 ring-2 ring-white"
 //       src="https://d33wubrfki0l68.cloudfront.net/3bfa6da479d6b9188c58f2d9a8d33350290ee2ef/301f1/images/hero/3/avatar-male.png"
 //       alt=""
 //     />
 //     <img
-//       class="inline-block rounded-full w-14 h-14 ring-2 ring-white"
+//       className="inline-block rounded-full w-14 h-14 ring-2 ring-white"
 //       src="https://d33wubrfki0l68.cloudfront.net/b52fa09a115db3a80ceb2d52c275fadbf84cf8fc/7fd8a/images/hero/3/avatar-female-1.png"
 //       alt=""
 //     />
 //     <img
-//       class="inline-block rounded-full w-14 h-14 ring-2 ring-white"
+//       className="inline-block rounded-full w-14 h-14 ring-2 ring-white"
 //       src="https://d33wubrfki0l68.cloudfront.net/8a2efb13f103a5ae2909e244380d73087a9c2fc4/31ed6/images/hero/3/avatar-female-2.png"
 //       alt=""
 //     />

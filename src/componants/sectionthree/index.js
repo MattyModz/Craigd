@@ -23,16 +23,16 @@ function Sectionthree() {
                 we can <br /> discuss the best strategy for you.{" "}
               </p>
             </div>
-            <section class="relative xl:pb-0 ">
-              <div class="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-                <div class="max-w-3xl mx-auto text-end">
-                  <div class="relative inline-flex  group">
-                    <div class="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
+            <section className="relative xl:pb-0 ">
+              <div className="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+                <div className="max-w-3xl mx-auto text-end">
+                  <div className="relative inline-flex  group">
+                    <div className="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
 
                     <a
                       href="#"
                       title=""
-                      class="relative inline-flex items-end justify-end px-8 py-4 text-lg font-semibold text-white transition-all duration-200 bg-[#493BCD] font-pj rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+                      className="relative inline-flex items-end justify-end px-8 py-4 text-lg font-semibold text-white transition-all duration-200 bg-[#493BCD] font-pj rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
                       role="button"
                     >
                       Schedule a call today!
