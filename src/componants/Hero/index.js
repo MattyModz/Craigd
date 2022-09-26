@@ -1,7 +1,7 @@
 import Image from "next/image";
 function Index() {
   return (
-    <div className=" bg-[#1F2A40] text-white mb-8 lg:h-screen px-4  ">
+    <div className=" bg-[#1F2A40] text-white mb-8  px-4  ">
       <section className="relative py-12 sm:py-16 lg:pt-20 xl:pb-0">
         <div className="w-1/4"></div>
         <div className="relative px-4  mx-auto sm:px-6 lg:px-8 ">
@@ -18,11 +18,11 @@ function Index() {
                 <section className="relative xl:pb-0">
                   <div className="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#00ABB2] via-[#A154A1] to-[#A154A1] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-150 animate-tilt"></div>
                   <div className="relative">
-                    <div className="flex  border px-3 bg-white lg:text-3xl lg:pb-2 rounded-full">
+                    <div className="flex   px-3 bg-white lg:text-3xl lg:pb-2 rounded-full">
                       <div className="mt-1 lg:pt-1">
                         <Image src="/Mag.svg" width={30} height={28} />
                       </div>
-                      <div className="text-gray-600 mt-1.5  lg:px-32 px-12 ">
+                      <div className="text-gray-600 mt-1.5  lg:px-32 px-16  ">
                         {" "}
                         How can Craig help you?
                       </div>
@@ -51,7 +51,7 @@ function Index() {
                     {" "}
                     <Image src="/stars.svg" width={150} height={50} />
                   </div>
-                  <div className="mt-3 lg:block hidden ">
+                  <div className="mt-3 lg:block hidden  ">
                     4.99 based on over 300 reviews
                   </div>
                   <div>
