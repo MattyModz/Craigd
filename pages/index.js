@@ -12,17 +12,15 @@ import Sectionseven from "../src/componants/sectionseven";
 export default function Home() {
   return (
     <>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-
-      <Index />
-      <Sectioone />
-      <Sectiontwo />
-      <Longform />
-      <Sectionsix />
-      <Sectionseven />
+      <div className="container">
+        {" "}
+        <Index />
+        <Sectioone />
+        <Sectiontwo />
+        <Longform />
+        <Sectionsix />
+        <Sectionseven />
+      </div>
     </>
   );
 }
