@@ -6,9 +6,9 @@ function Index() {
         <div className="w-1/4"></div>
         <div className="relative px-4  mx-auto sm:px-6 lg:px-8 ">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="lg:text-5xl text-4xl font-bold">
+            <h1 className="lg:text-5xl text-3xl font-bold">
               Tired of{" "}
-              <span classNameName="text-[#82C4D9]"> finding problems </span>
+              <span className="text-[#82C4D9]"> finding problems </span>
               <br />
               and losing solutions?
             </h1>
@@ -46,12 +46,14 @@ function Index() {
             </div>
             <div className="flex justify-center py-8 ">
               <div className="flex rounded-full border-t-4 border-black/30 bg-[#0D2149] px-8  ">
-                <div className="grid grid-cols-3  content-center">
+                <div className="grid lg:grid-cols-3 grid-cols-2  content-center">
                   <div>
                     {" "}
                     <Image src="/stars.svg" width={150} height={50} />
                   </div>
-                  <div className="mt-3 ">4.99 based on over 300 reviews</div>
+                  <div className="mt-3 lg:block hidden ">
+                    4.99 based on over 300 reviews
+                  </div>
                   <div>
                     {" "}
                     <Image src="/faces.svg" width={150} height={50} />
