@@ -1,7 +1,7 @@
 import "../src/styles/index.scss";
 import { AnimatePresence } from "framer-motion";
 
-// import Header from "../src/componants/Header/header";
+import Header from "../src/componants/Header/header";
 
 function MyApp({ Component, pageProps, router }) {
   // useEffect(() => {
@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps, router }) {
 
   return (
     <div>
-      {/* <Header /> */}
+      <Header />
 
       <AnimatePresence exitBeforeEnter>
         <Component {...pageProps} key={router.route} />

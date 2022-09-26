@@ -2,80 +2,6 @@ import Image from "next/image";
 function Index() {
   return (
     <div className=" bg-[#1F2A40] text-white mb-8 lg:h-screen px-4  ">
-      <header className="relative py-4 md:py-6">
-        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 ">
-          <div className="relative flex items-center justify-between ">
-            <div className="flex-shrink-0">
-              <a
-                href="#"
-                title=""
-                className="flex rounded outline-none focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
-              >
-                <img className="w-auto h-18" src="cdlogo.svg" alt="" />
-              </a>
-            </div>
-
-            <div className="flex lg:hidden">
-              <button
-                type="button"
-                className="text-white
-              
-              "
-              >
-                <svg
-                  className="w-7 h-7"
-                  xmlns="http://www.w3.org/1500/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="1.5"
-                    d="M4 6h16M4 12h16M4 18h16"
-                  ></path>
-                </svg>
-              </button>
-            </div>
-
-            <div classNameName=" lg:flex lg:items-center lg:justify-center font-bold lg:space-x-10">
-              <a
-                href="#"
-                title=""
-                className="text-base  text-white
-                
-                 transition-all duration-150 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
-              >
-                {" "}
-                Podcasts{" "}
-              </a>
-              <a
-                href="#"
-                title=""
-                className="text-base  text-white
-                
-                 transition-all duration-150 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
-              >
-                {" "}
-                Mystory{" "}
-              </a>
-
-              <a
-                href="#"
-                title=""
-                className="px-10 py-2 text-base rounded-full  leading-7 text-white bg-[#82C4D9]
-                
-                 transition-all duration-150 border border-gray-900  font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-900 hover:text-white focus:bg-gray-900 focus:text-white"
-                role="button"
-              >
-                Contact
-              </a>
-            </div>
-          </div>
-        </div>
-      </header>
-
       <section className="relative py-12 sm:py-16 lg:pt-20 xl:pb-0">
         <div className="w-1/4"></div>
         <div className="relative px-4  mx-auto sm:px-6 lg:px-8 ">
@@ -96,9 +22,9 @@ function Index() {
                       <div className="mt-1 lg:pt-1">
                         <Image src="/Mag.svg" width={30} height={28} />
                       </div>
-                      <div className="text-gray-600 mt-1.5 lg:px-4 px-12 ">
+                      <div className="text-gray-600 mt-1.5  lg:px-32 px-12 ">
                         {" "}
-                        Turn Your visitors Into Profitable Business
+                        How can Craig help you?
                       </div>
                       <div className="mt-1.5">
                         {" "}
@@ -125,9 +51,7 @@ function Index() {
                     {" "}
                     <Image src="/stars.svg" width={150} height={50} />
                   </div>
-                  <div className="mt-3 font-">
-                    4.99 based on over 300 reviews
-                  </div>
+                  <div className="mt-3 ">4.99 based on over 300 reviews</div>
                   <div>
                     {" "}
                     <Image src="/faces.svg" width={150} height={50} />
@@ -146,10 +70,10 @@ function Index() {
             </section>
             <div>
               <div className="">
-                <div className="inline-grid grid-cols-3 gap-8  items-center  ">
+                <div className="inline-grid grid-cols-3 lg:gap-8 gap-2  items-center  ">
                   <img
                     className="object-contain "
-                    src="/Digitalloft.svg"
+                    src="/digitalloft.svg"
                     alt=""
                   />
                   <img

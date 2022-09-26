@@ -1,82 +1,83 @@
+import Image from "next/image";
+import Link from "next/link";
+import { useState } from "react";
 export default function Nav() {
   // const router = useRouter;
-
+  const [Menu, showMenu] = useState(false);
   return (
     <>
-      <section className="relative w-full px-8 text-gray-700 bg-white body-font">
-        <div className="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row max-w-7xl">
-          <a
-            href="#_"
-            className="relative z-10 flex items-center w-auto text-2xl font-extrabold leading-none text-black select-none"
-          >
-            <div className="flex justify-center">
-              <img src={"/Logo1.png"} height={150} width={200} />
-            </div>
-          </a>
-
-          <nav className="top-0 left-0 z-0 flex items-center justify-center w-full h-full py-5 -ml-0 space-x-5 text-base md:-ml-5 md:py-0 md:absolute">
+      <nav className=" w-full select-none shadow-sm bg-[#1F2A40] ">
+        <div className="flex items-center justify-between h-20 px-8 py-2 mx-auto max-w-7xl md:h-24 sm:box-content">
+          <div className="flex items-center w-64">
             <a
               href="#_"
-              className="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900"
+              className="flex items-center order-first font-medium text-gray-900 lg:order-none lg:w-auto title-font lg:items-center lg:justify-center"
             >
-              <span className="block">Home</span>
-              <span className="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
-                <span></span>
+              <span className=" pt-6 text-xl font-black leading-none text-gray-900 select-none logo">
+                <Link href={"/"} passHref>
+                  <div className="">
+                    <Image
+                      src={"/cdlogo.svg"}
+                      width={150}
+                      height={150}
+                      alt="Logo"
+                    />
+                  </div>
+                </Link>
               </span>
             </a>
-            <a
-              href="#_"
-              className="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900"
-            >
-              <span className="block">Features</span>
-              <span className="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
-                <span className="absolute inset-0 inline-block w-full h-1 h-full transform bg-gray-900"></span>
-              </span>
-            </a>
-            <a
-              href="#_"
-              className="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900"
-            >
-              <span className="block">Pricing</span>
-              <span className="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
-                <span></span>
-              </span>
-            </a>
-            <a
-              href="#_"
-              className="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900"
-            >
-              <span className="block">Blog</span>
-              <span className="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
-                <span></span>
-              </span>
-            </a>
-          </nav>
-
-          <div className="relative z-10 inline-flex items-center space-x-3 md:ml-5 lg:justify-end">
-            <a
-              href="#"
-              className="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-gray-600 whitespace-no-wrap bg-white border border-gray-200 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:shadow-none"
-            >
-              Podcasts
-            </a>
-            <a
-              href="#"
-              className="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-gray-600 whitespace-no-wrap bg-white border border-gray-200 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:shadow-none"
-            >
-              My Story
-            </a>
-            <span className="inline-flex rounded-md shadow-sm">
-              <a
-                href="#"
-                className="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-white whitespace-no-wrap bg-blue-600 border border-blue-700 rounded-md shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
-              >
+          </div>
+          <div>
+            <div className="py-2 text-white font-bold cursor-pointer sm:block md:hidden lg:hidden hover:text-gray-700 focus:text-gray-700 focus:outline-none">
+              <button className="bg-[#82C4D9] text-white font-bold  p-3 rounded-full ml-8 px-12 mt-2">
                 Contact
-              </a>
-            </span>
+              </button>
+            </div>
+            <div className={`${Menu ? "" : "hidden md:block lg:block "}`}>
+              <div className="fixed  top-0 z-30 block text-gray-500 cursor-pointer pt-7 sm:pt-8 md:hidden lg:hidden hover:text-gray-700 focus:text-gray-700 focus:outline-none ">
+                <svg
+                  onClick={() => showMenu((state) => !Menu)}
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-8 h-8"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="white"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z"></path>
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+              </div>
+              <ul className="bg-gradient-to-br from-[#1A0976] via-[#100750] to-black   fixed top-0 bottom-0 left-0 right-0 z-20 flex flex-col items-center justify-center py-8 space-y-8 text-3xl md:space-y-0 md:bg-none md:text-base md:flex md:flex-row md:relative">
+                <li
+                  className="text-white cursor-pointer hover:text-gray-400 md:ml-10"
+                  onClick={() => showMenu((state) => !Menu)}
+                >
+                  <Link href={"/"} passHref>
+                    My Story
+                  </Link>
+                </li>
+
+                <li
+                  className="text-white cursor-pointer hover:text-gray-400 md:ml-10"
+                  onClick={() => showMenu((state) => !Menu)}
+                >
+                  <Link href={"/contact"} passHref>
+                    Podcasts
+                  </Link>
+                </li>
+
+                <button className="bg-[#82C4D9] text-white   p-3 rounded-full ml-8 px-8">
+                  Contact
+                </button>
+              </ul>
+            </div>
           </div>
         </div>
-      </section>
+      </nav>
     </>
   );
 }
