@@ -3,7 +3,7 @@ function Index() {
   return (
     <div className=" bg-[#1F2A40] text-white mb-8 lg:h-screen px-4  ">
       <header className="relative py-4 md:py-6">
-        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 sm:block hidden">
+        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 ">
           <div className="relative flex items-center justify-between ">
             <div className="flex-shrink-0">
               <a

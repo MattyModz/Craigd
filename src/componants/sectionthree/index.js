@@ -9,13 +9,13 @@ function Sectionthree() {
         </div>
 
         <div className="lg:w-1/2 grid items-center">
-          <div className="lg:text-6xl text-4xl text-black text-right">
+          <div className="lg:text-6xl text-5xl text-black text-right">
             {" "}
             I Bring The Idea,
             <br />
             <span className="text-[#82C4D9]">You Get The Say.</span>
             <div>
-              <p className="text-3xl text-[##1F2A40] py-8 text-right">
+              <p className="lg:text-3xl text-xl text-[##1F2A40] py-8 text-right">
                 My clients can choose the SEO practice that <br /> works for
                 them, depending on their budget and <br /> goals. Hundreds of
                 strategies have been used in <br /> SEO, and not all of them

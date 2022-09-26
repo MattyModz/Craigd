@@ -5,13 +5,13 @@ function Sectiontwo() {
     <div className="h-full bg-[#1F2A40] py-8 lg:h-screen ">
       <div className="lg:flex container  shadow-lg h-full shadow-blue-500">
         <div className="lg:w-1/2 grid items-center">
-          <div className="lg:text-6xl text-4xl  text-white px-16">
+          <div className="lg:text-6xl text-6xl  text-white lg:px-16 px-4">
             {" "}
             Reliable. <span className="text-[#82C4D9]">Genuine. </span>
             <br />
             <span className="text-[#FF675E]">Passionate.</span>
             <div>
-              <p className="text-xl text-white py-8">
+              <p className="lg:text-3xl text-xl text-white py-8">
                 I like to see myself as an expert advisor
                 <br /> with an insatiable hunger to help <br />
                 businesses grow and provide valuable <br />

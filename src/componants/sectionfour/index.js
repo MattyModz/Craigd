@@ -16,7 +16,7 @@ function Sectionfour() {
             Proven Statistics
           </div>
         </div>
-        <p className="text-center text-3xl">
+        <p className="text-center lg:text-3xl text-xl">
           It’s easy for me to tell you to trust me, but before purchasing
           anything we care <br />
           about, a smart person will always look at the views. So let them do

@@ -8,7 +8,7 @@ function Sectioone() {
         <h2 className="font-bold text-center text-3xl text-[#493BCD]">
           Who is <span className="text-black"> Craig Dewart?</span>
         </h2>
-        <p className="text-center text-xl py-8">
+        <p className="text-center text-xl lg:text-3xl py-8">
           I’m a rising SEO professional with expertise in all things SEO and a
           genuine <br /> passion for helping agencies scale beyond infinity.
           <br />
