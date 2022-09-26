@@ -5,7 +5,7 @@ function Sectionseven() {
     <div className="h-full mb-4 lg:shadow-lg shadow-purple-100 container lg:px-16 px-8 py-4">
       <div className="lg:flex container h-screen">
         <div className="lg:w-1/2 grid items-center">
-          <Image src={"/workingPhoto.svg"} width={500} height={500} />
+          <Image src={"/WorkingPhoto.svg"} width={500} height={500} />
         </div>
 
         <div className="lg:w-1/2 lg:grid items-center">

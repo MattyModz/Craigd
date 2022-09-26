@@ -44,10 +44,10 @@ function Index() {
                 blowing your budget, even if your options are limited.
               </p>
             </div>
-            <div className="flex justify-center py-8 ">
+            <div className="flex justify-center py-16 ">
               <div className="flex rounded-full border-t-4 border-black/30 bg-[#0D2149] px-8  ">
-                <div className="grid lg:grid-cols-3 grid-cols-2  content-center">
-                  <div>
+                <div className="grid lg:grid-cols-3 grid-cols-2   content-center">
+                  <div className="">
                     {" "}
                     <Image src="/stars.svg" width={150} height={50} />
                   </div>
@@ -70,7 +70,7 @@ function Index() {
                 </div>
               </div>
             </section>
-            <div>
+            {/* <div>
               <div className="">
                 <div className="inline-grid grid-cols-3 lg:gap-8 gap-2  items-center  ">
                   <img
@@ -86,7 +86,7 @@ function Index() {
                   <img className="object-contain " src="/APV.png" alt="" />
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

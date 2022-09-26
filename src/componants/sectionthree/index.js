@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 function Sectionthree() {
   return (
-    <div className=" h-full mb-16 lg:px-12 px-4 lg:mt-48  ">
-      <div className="lg:flex container  ">
+    <div className=" h-screen container   lg:shadow-lg mb-16 lg:px-12 px-4 lg:mt-48 ">
+      <div className="lg:flex ">
         <div className="lg:w-1/2 grid items-center">
           <Image src={"/Ideasvector.svg"} width={400} height={400} />
         </div>
