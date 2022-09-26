@@ -5,7 +5,7 @@ function Sectionsix() {
     <section className="h-full  bg-[#1F2A40] px-4 ">
       <div className="lg:container px-4 lg:px-16 lg:shadow-lg shadow-purple-100 ">
         <div className="lg:flex  ">
-          <div className="lg:w-1/2 grid items-center leading-11 lg:text-7xl text-6xl py-8 font-bold text-white ">
+          <div className="lg:w-1/2 grid items-center leading-11 lg:text-7xl text-4xl py-8 font-bold text-white ">
             The Worries
             <br />
             of choosing an <br />

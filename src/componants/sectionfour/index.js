@@ -5,7 +5,7 @@ function Sectionfour() {
     <>
       <section className="">
         <div className="  container  ">
-          <div className="text-center text-6xl ">
+          <div className="text-center text-4xl lg:text-6xl ">
             What Make a <br />{" "}
             <span className="text-[#A154A1] font-bold">
               {" "}

@@ -2,10 +2,10 @@ import React from "react";
 import Image from "next/image";
 function Sectiontwo() {
   return (
-    <div className="h-full bg-[#1F2A40] py-8 lg:h-screen">
+    <div className="h-full bg-[#1F2A40] py-8 lg:h-screen ">
       <div className="lg:flex container  shadow-lg h-full shadow-blue-500">
         <div className="lg:w-1/2 grid items-center">
-          <div className="text-6xl  text-white px-16">
+          <div className="lg:text-6xl text-4xl  text-white px-16">
             {" "}
             Reliable. <span className="text-[#82C4D9]">Genuine. </span>
             <br />
@@ -23,7 +23,7 @@ function Sectiontwo() {
             </div>
           </div>
         </div>
-        <div className="lg:w-1/2 grid items-center">
+        <div className="lg:w-1/2 lg:grid items-center">
           <Image src={"/Craig photo.svg"} width={700} height={700} />
         </div>
       </div>

@@ -9,7 +9,7 @@ function Sectionthree() {
         </div>
 
         <div className="lg:w-1/2 grid items-center">
-          <div className="text-6xl  text-black text-right">
+          <div className="lg:text-6xl text-4xl text-black text-right">
             {" "}
             I Bring The Idea,
             <br />
