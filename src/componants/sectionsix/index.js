@@ -22,7 +22,7 @@ function Sectionsix() {
         <div>
           <div className="lg:container -mt-16  text-3xl ">
             <div className="text-[#82C4D9] text-2xl  font-bold">
-              "They will take over my business."
+              &quot;They will take over my business.&quot;
             </div>
 
             <p className="text-white py-8 flex justify-start text-2xl">
@@ -30,7 +30,7 @@ function Sectionsix() {
               This is a common concern. As an SEO consultant, I’m there to
               support your business and sky-
               <br />
-              rocket it to success. However, I can't do this without your
+              rocket it to success. However, I can&quot;t do this without your
               blessing and support. <br /> <br /> We must work together to
               figure out the best strategy for your business, as you know your{" "}
               <br />
@@ -42,7 +42,7 @@ function Sectionsix() {
         </div>
         <div className="container text-xl">
           <div className="text-[#82C4D9] text-2xl font-bold">
-            "It costs too much"
+            &quot;It costs too much&quot;
           </div>
           <p className="text-white py-8 text-2xl">
             {" "}
