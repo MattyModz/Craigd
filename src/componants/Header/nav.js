@@ -29,7 +29,7 @@ export default function Nav() {
           </div>
           <div>
             <div className="py-2 text-white font-bold cursor-pointer sm:block md:hidden lg:hidden hover:text-gray-700 focus:text-gray-700 focus:outline-none">
-              <button className="bg-[#82C4D9] text-white font-bold  p-3 rounded-full ml-8 px-12 mt-6 border-t-4 border-black/60">
+              <button className="bg-[#82C4D9] text-white font-bold lg:text-3xl p-3 rounded-full ml-8 px-12 mt-6 border-t-4 border-black/60">
                 Contact
               </button>
             </div>
