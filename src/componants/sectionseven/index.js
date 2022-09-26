@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 function Sectionseven() {
   return (
-    <div className="h-full mb-4 shadow-lg shadow-purple-100 container lg:px-16 px-8 py-4">
+    <div className="h-full mb-4 lg:shadow-lg shadow-purple-100 container lg:px-16 px-8 py-4">
       <div className="lg:flex container h-screen">
         <div className="lg:w-1/2 grid items-center">
           <Image src={"/working photo.svg"} width={500} height={500} />
