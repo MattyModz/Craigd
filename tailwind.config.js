@@ -8,6 +8,7 @@ module.exports = {
       padding: { "fluid-video": "56.25%" },
       backgroundImage: {
         bgrect: "url('../../public/bgrect.svg')",
+        hero: "url('../../public/heroicons.svg')",
       },
       colors: {},
       fontfamily: {},
