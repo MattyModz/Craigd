@@ -1,7 +1,7 @@
 import Image from "next/image";
 function Index() {
   return (
-    <div className=" bg-[#1F2A40] h-screen  ">
+    <div className=" bg-[#1F2A40] lg:h-screen  ">
  
       
      
