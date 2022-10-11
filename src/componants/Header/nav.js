@@ -71,7 +71,9 @@ export default function Nav() {
                 </li>
 
                 <button className="bg-[#82C4D9] text-white   p-3 rounded-full ml-8 px-8">
-                  Book a call
+                  <a href="https://calendly.com/mcp-link-city-b2r/link-city-30-min-meeting?month=2022-05">
+                    Book a call
+                  </a>
                 </button>
               </ul>
             </div>

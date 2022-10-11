@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 function Sectiontwo() {
   return (
-    <div className="h-full bg-[#1F2A40] py-8 lg:h-screen px-4 ">
+    <div id="2" className="h-full bg-[#1F2A40] py-8 lg:h-screen px-4 ">
       <div className="lg:flex container  lg:shadow-lg h-full shadow-blue-500">
         <div className="lg:w-1/2 grid items-center">
           <div className="lg:text-6xl text-6xl  text-white lg:px-16 px-4">
